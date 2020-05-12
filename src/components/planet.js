@@ -5,7 +5,7 @@ export default class planet extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            src: '/assets/' + props.name + '.png',
+            src: 'assets/' + props.name + '.png',
             name: props.name,
         };
         this.selectPlanet = this.selectPlanet.bind(this);

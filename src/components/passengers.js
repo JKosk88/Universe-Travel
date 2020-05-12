@@ -19,7 +19,7 @@ export default class planet extends Component {
                 <h1 id='passenger-header'>Select number of passengers</h1>
                 <div id='passenger-container'>
                     <div id='passenger-quantity'>2</div>
-                    <img src='/assets/astronaut.png' id='passenger-icon' />
+                    <img src='assets/astronaut.png' id='passenger-icon' />
                     <input onInput={this.changeValue} type="range" id='passenger-input' max='10' min='1' defaultValue='2' className='slider' />
                 </div>
 
