@@ -16,7 +16,6 @@ const  handleResponsive  =  setNumberOfMonth  =>  {
 class date extends Component {
 
   onChange = date => {
-    console.log(date);
     let message;
     switch (date.length){
       case 0:

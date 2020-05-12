@@ -21,7 +21,7 @@ export default class planet extends Component {
                     </div>
                     <div className='summary-content'>
                         <img src='assets/people.png' className='summary-img'/>
-                        <p id='summary-passengers' onClick={console.log(App.selectedDate)}>Going alone? Take friends with you!</p>
+                        <p id='summary-passengers'>Going alone? Take friends with you!</p>
                     </div>
                 </div>
             </div>
