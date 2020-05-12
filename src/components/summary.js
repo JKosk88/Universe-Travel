@@ -12,15 +12,15 @@ export default class planet extends Component {
                 </div>
                 <div id='summary-bottom'>
                     <div className='summary-content'>
-                        <img src='planet.png' className='summary-img'/>
+                        <img src='/assets/planet.png' className='summary-img'/>
                         <p id='summary-destination'>Maybe Mars? Or Moon? You choose!</p>
                     </div>
                     <div className='summary-content'>
-                        <img src='calendar.png' className='summary-img'/>
+                        <img src='/assets/calendar.png' className='summary-img'/>
                         <p id='summary-date'>You haven't selected any date. Does it mean you want to fly today?</p>
                     </div>
                     <div className='summary-content'>
-                        <img src='people.png' className='summary-img'/>
+                        <img src='/assets/people.png' className='summary-img'/>
                         <p id='summary-passengers' onClick={console.log(App.selectedDate)}>Going alone? Take friends with you!</p>
                     </div>
                 </div>
