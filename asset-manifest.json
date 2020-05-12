@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/.github.io/Universe-Travel/static/css/main.de75cc14.chunk.css",
+    "main.js": "/.github.io/Universe-Travel/static/js/main.7e060dd3.chunk.js",
+    "main.js.map": "/.github.io/Universe-Travel/static/js/main.7e060dd3.chunk.js.map",
+    "runtime-main.js": "/.github.io/Universe-Travel/static/js/runtime-main.a6508b51.js",
+    "runtime-main.js.map": "/.github.io/Universe-Travel/static/js/runtime-main.a6508b51.js.map",
+    "static/css/2.e5c964ac.chunk.css": "/.github.io/Universe-Travel/static/css/2.e5c964ac.chunk.css",
+    "static/js/2.8f8034d4.chunk.js": "/.github.io/Universe-Travel/static/js/2.8f8034d4.chunk.js",
+    "static/js/2.8f8034d4.chunk.js.map": "/.github.io/Universe-Travel/static/js/2.8f8034d4.chunk.js.map",
+    "index.html": "/.github.io/Universe-Travel/index.html",
+    "precache-manifest.a34842523ce23167bedd6643ba59ba57.js": "/.github.io/Universe-Travel/precache-manifest.a34842523ce23167bedd6643ba59ba57.js",
+    "service-worker.js": "/.github.io/Universe-Travel/service-worker.js",
+    "static/css/2.e5c964ac.chunk.css.map": "/.github.io/Universe-Travel/static/css/2.e5c964ac.chunk.css.map",
+    "static/css/main.de75cc14.chunk.css.map": "/.github.io/Universe-Travel/static/css/main.de75cc14.chunk.css.map",
+    "static/js/2.8f8034d4.chunk.js.LICENSE.txt": "/.github.io/Universe-Travel/static/js/2.8f8034d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6508b51.js",
+    "static/css/2.e5c964ac.chunk.css",
+    "static/js/2.8f8034d4.chunk.js",
+    "static/css/main.de75cc14.chunk.css",
+    "static/js/main.7e060dd3.chunk.js"
+  ]
+}
