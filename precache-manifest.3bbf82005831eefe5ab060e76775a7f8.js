@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2dc6024ebc435b2c8ee93703118698b",
+    "revision": "d64b9dc700d1009b0c9451014a690516",
     "url": "/Universe-Travel/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Universe-Travel/static/css/2.e5c964ac.chunk.css"
   },
   {
-    "revision": "cdf4d86b607303560d2a",
+    "revision": "af335b27f3271d88c749",
     "url": "/Universe-Travel/static/css/main.de75cc14.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Universe-Travel/static/js/2.f222e61d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cdf4d86b607303560d2a",
-    "url": "/Universe-Travel/static/js/main.80b361f1.chunk.js"
+    "revision": "af335b27f3271d88c749",
+    "url": "/Universe-Travel/static/js/main.d21471b1.chunk.js"
   },
   {
     "revision": "97f529fc9c27e4654397",
