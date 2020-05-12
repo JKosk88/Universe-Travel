@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/.github.io/Universe-Travel/static/css/main.de75cc14.chunk.css",
-    "main.js": "/.github.io/Universe-Travel/static/js/main.80b361f1.chunk.js",
-    "main.js.map": "/.github.io/Universe-Travel/static/js/main.80b361f1.chunk.js.map",
-    "runtime-main.js": "/.github.io/Universe-Travel/static/js/runtime-main.a6508b51.js",
-    "runtime-main.js.map": "/.github.io/Universe-Travel/static/js/runtime-main.a6508b51.js.map",
-    "static/css/2.e5c964ac.chunk.css": "/.github.io/Universe-Travel/static/css/2.e5c964ac.chunk.css",
-    "static/js/2.8f8034d4.chunk.js": "/.github.io/Universe-Travel/static/js/2.8f8034d4.chunk.js",
-    "static/js/2.8f8034d4.chunk.js.map": "/.github.io/Universe-Travel/static/js/2.8f8034d4.chunk.js.map",
-    "index.html": "/.github.io/Universe-Travel/index.html",
-    "precache-manifest.c030288e7499a76b87e9a4d0475ab56d.js": "/.github.io/Universe-Travel/precache-manifest.c030288e7499a76b87e9a4d0475ab56d.js",
-    "service-worker.js": "/.github.io/Universe-Travel/service-worker.js",
-    "static/css/2.e5c964ac.chunk.css.map": "/.github.io/Universe-Travel/static/css/2.e5c964ac.chunk.css.map",
-    "static/css/main.de75cc14.chunk.css.map": "/.github.io/Universe-Travel/static/css/main.de75cc14.chunk.css.map",
-    "static/js/2.8f8034d4.chunk.js.LICENSE.txt": "/.github.io/Universe-Travel/static/js/2.8f8034d4.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.de75cc14.chunk.css",
+    "main.js": "/static/js/main.80b361f1.chunk.js",
+    "main.js.map": "/static/js/main.80b361f1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d1c69bd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d1c69bd.js.map",
+    "static/css/2.e5c964ac.chunk.css": "/static/css/2.e5c964ac.chunk.css",
+    "static/js/2.7e5c68c0.chunk.js": "/static/js/2.7e5c68c0.chunk.js",
+    "static/js/2.7e5c68c0.chunk.js.map": "/static/js/2.7e5c68c0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.76d0bb1acd256f71b8ca59c2175471cf.js": "/precache-manifest.76d0bb1acd256f71b8ca59c2175471cf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e5c964ac.chunk.css.map": "/static/css/2.e5c964ac.chunk.css.map",
+    "static/css/main.de75cc14.chunk.css.map": "/static/css/main.de75cc14.chunk.css.map",
+    "static/js/2.7e5c68c0.chunk.js.LICENSE.txt": "/static/js/2.7e5c68c0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6508b51.js",
+    "static/js/runtime-main.8d1c69bd.js",
     "static/css/2.e5c964ac.chunk.css",
-    "static/js/2.8f8034d4.chunk.js",
+    "static/js/2.7e5c68c0.chunk.js",
     "static/css/main.de75cc14.chunk.css",
     "static/js/main.80b361f1.chunk.js"
   ]
