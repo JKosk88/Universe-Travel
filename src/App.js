@@ -19,9 +19,9 @@ function App() {
     <div className="App">
       <h1 id='planet-header'>Select destination</h1>
       <div id='planets'>
-          <Planet name='Earth'/>
-          <Planet name='Moon'/>
-          <Planet name='Mars'/>
+          <Planet name='Earth' imgSrc='assets/Earth.png'/>
+          <Planet name='Moon' imgSrc='assets/Moon.png'/>
+          <Planet name='Mars' imgSrc='assets/Mars.png'/>
       </div>
       <div id='date-box'>
         <div id='date-container'>

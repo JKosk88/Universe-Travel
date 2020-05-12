@@ -5,7 +5,7 @@ export default class planet extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            src: 'assets/' + props.name + '.png',
+            imgSrc: props.imgSrc,
             name: props.name,
         };
         this.selectPlanet = this.selectPlanet.bind(this);
@@ -23,7 +23,7 @@ export default class planet extends Component {
                     to='date-box'
                     smooth={true}
                     duration={1000}>
-                    <img src={this.state.src} className='planet' onClick={this.selectPlanet}/>
+                    <img src={this.state.imgSrc} className='planet' onClick={this.selectPlanet}/>
                 </Link>
             </div>
         );
