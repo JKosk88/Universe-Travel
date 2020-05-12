@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.de75cc14.chunk.css",
-    "main.js": "/static/js/main.80b361f1.chunk.js",
-    "main.js.map": "/static/js/main.80b361f1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8d1c69bd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8d1c69bd.js.map",
-    "static/css/2.e5c964ac.chunk.css": "/static/css/2.e5c964ac.chunk.css",
-    "static/js/2.7e5c68c0.chunk.js": "/static/js/2.7e5c68c0.chunk.js",
-    "static/js/2.7e5c68c0.chunk.js.map": "/static/js/2.7e5c68c0.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.76d0bb1acd256f71b8ca59c2175471cf.js": "/precache-manifest.76d0bb1acd256f71b8ca59c2175471cf.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.e5c964ac.chunk.css.map": "/static/css/2.e5c964ac.chunk.css.map",
-    "static/css/main.de75cc14.chunk.css.map": "/static/css/main.de75cc14.chunk.css.map",
-    "static/js/2.7e5c68c0.chunk.js.LICENSE.txt": "/static/js/2.7e5c68c0.chunk.js.LICENSE.txt"
+    "main.css": "/Universe-Travel/static/css/main.de75cc14.chunk.css",
+    "main.js": "/Universe-Travel/static/js/main.80b361f1.chunk.js",
+    "main.js.map": "/Universe-Travel/static/js/main.80b361f1.chunk.js.map",
+    "runtime-main.js": "/Universe-Travel/static/js/runtime-main.0cb6be5a.js",
+    "runtime-main.js.map": "/Universe-Travel/static/js/runtime-main.0cb6be5a.js.map",
+    "static/css/2.e5c964ac.chunk.css": "/Universe-Travel/static/css/2.e5c964ac.chunk.css",
+    "static/js/2.f222e61d.chunk.js": "/Universe-Travel/static/js/2.f222e61d.chunk.js",
+    "static/js/2.f222e61d.chunk.js.map": "/Universe-Travel/static/js/2.f222e61d.chunk.js.map",
+    "index.html": "/Universe-Travel/index.html",
+    "precache-manifest.e8992cab7d944d541692fe37f8260d70.js": "/Universe-Travel/precache-manifest.e8992cab7d944d541692fe37f8260d70.js",
+    "service-worker.js": "/Universe-Travel/service-worker.js",
+    "static/css/2.e5c964ac.chunk.css.map": "/Universe-Travel/static/css/2.e5c964ac.chunk.css.map",
+    "static/css/main.de75cc14.chunk.css.map": "/Universe-Travel/static/css/main.de75cc14.chunk.css.map",
+    "static/js/2.f222e61d.chunk.js.LICENSE.txt": "/Universe-Travel/static/js/2.f222e61d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d1c69bd.js",
+    "static/js/runtime-main.0cb6be5a.js",
     "static/css/2.e5c964ac.chunk.css",
-    "static/js/2.7e5c68c0.chunk.js",
+    "static/js/2.f222e61d.chunk.js",
     "static/css/main.de75cc14.chunk.css",
     "static/js/main.80b361f1.chunk.js"
   ]
