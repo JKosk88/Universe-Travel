@@ -88,25 +88,64 @@ body {
   transform: 1s;
 }
 
-.planet:hover{
+.planet-img:hover{
   transition: 0.4s;
   filter: drop-shadow(0 0 50px)
 }
 
-.planet:not(:hover){
+.planet-img:not(:hover){
   transition: 1s;
 }
 
-#Earth{
+#Earth-img{
   filter: drop-shadow(0 0 20px rgba(1, 255, 255, 0.699));
 }
 
-#Moon{
+#Moon-img{
   filter: drop-shadow(0 0 20px white);
 }
 
-#Mars{
+#Mars-img{
   filter: drop-shadow(0 0 20px rgb(255, 39, 93));
+}
+
+.info {
+  font-weight: 100;
+  font-size: 1rem;
+  color: rgb(228, 228, 228);
+  position: absolute;
+  display: none;
+  box-shadow: 10px rgb(255, 0, 0);
+  border-radius: 16px;
+  padding: 10px;
+  filter: drop-shadow(0 0 20px #474747);
+}
+
+.planet-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#info-hover {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 70px;
+  bottom: 70px;
+  border: 0.1rem solid rgb(146, 146, 146);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(146, 146, 146);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+#info-hover-2 {
+  pointer-events: none;
 }
 
 /* date component */

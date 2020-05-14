@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
-import { DatePicker, RangePicker, theme } from 'react-trip-date';
+import { RangePicker, theme } from 'react-trip-date';
 import {ThemeProvider} from 'styled-components';
+
 const  handleResponsive  =  setNumberOfMonth  =>  {
 	let  width  =  document.querySelector('.tp-calendar').clientWidth;
 	if  (width  >  900)  {
