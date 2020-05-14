@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Universe-Travel/static/css/main.ed3ce2cb.chunk.css",
+    "main.css": "/Universe-Travel/static/css/main.a5faebd8.chunk.css",
     "main.js": "/Universe-Travel/static/js/main.2d142364.chunk.js",
     "main.js.map": "/Universe-Travel/static/js/main.2d142364.chunk.js.map",
     "runtime-main.js": "/Universe-Travel/static/js/runtime-main.0cb6be5a.js",
@@ -9,17 +9,17 @@
     "static/js/2.32bc425d.chunk.js": "/Universe-Travel/static/js/2.32bc425d.chunk.js",
     "static/js/2.32bc425d.chunk.js.map": "/Universe-Travel/static/js/2.32bc425d.chunk.js.map",
     "index.html": "/Universe-Travel/index.html",
-    "precache-manifest.5eee7eacf941057e66b780a89ab09872.js": "/Universe-Travel/precache-manifest.5eee7eacf941057e66b780a89ab09872.js",
+    "precache-manifest.c829971406d9549b585e382c8ce0f94a.js": "/Universe-Travel/precache-manifest.c829971406d9549b585e382c8ce0f94a.js",
     "service-worker.js": "/Universe-Travel/service-worker.js",
     "static/css/2.e5c964ac.chunk.css.map": "/Universe-Travel/static/css/2.e5c964ac.chunk.css.map",
-    "static/css/main.ed3ce2cb.chunk.css.map": "/Universe-Travel/static/css/main.ed3ce2cb.chunk.css.map",
+    "static/css/main.a5faebd8.chunk.css.map": "/Universe-Travel/static/css/main.a5faebd8.chunk.css.map",
     "static/js/2.32bc425d.chunk.js.LICENSE.txt": "/Universe-Travel/static/js/2.32bc425d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0cb6be5a.js",
     "static/css/2.e5c964ac.chunk.css",
     "static/js/2.32bc425d.chunk.js",
-    "static/css/main.ed3ce2cb.chunk.css",
+    "static/css/main.a5faebd8.chunk.css",
     "static/js/main.2d142364.chunk.js"
   ]
 }
