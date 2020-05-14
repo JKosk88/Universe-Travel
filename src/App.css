@@ -92,13 +92,22 @@ body {
 
 .planet:hover{
   transition: 0.4s;
-  filter: drop-shadow(0 0 50px);
-  box-shadow: 0 0 100px blue;
-  border: 100px solid red;
 }
 
 .planet:not(:hover){
-  transition: 1s;
+  transition: 0.4s;
+}
+
+#Earth-img:hover{
+  filter: drop-shadow(0 0 50px rgb(1, 255, 255));
+}
+
+#Moon-img:hover{
+  filter: drop-shadow(0 0 50px white);
+}
+
+#Mars-img:hover{
+  filter: drop-shadow(0 0 50px rgb(255, 39, 93));
 }
 
 #Earth-img{
