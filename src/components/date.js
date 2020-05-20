@@ -40,7 +40,7 @@ class date extends Component {
         <ThemeProvider theme={theme}>
           <RangePicker
             handleChange={this.onChange}
-            // numberOfSelectableDays={2}
+            numberOfSelectableDays={2}
             hoverable='true'
             responsive={handleResponsive}
             disabledBeforeToday='true'
