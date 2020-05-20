@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import { RangePicker, theme } from 'react-trip-date';
-import {ThemeProvider} from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 
 const  handleResponsive  =  setNumberOfMonth  =>  {
 	let  width  =  document.querySelector('.tp-calendar').clientWidth;
@@ -39,15 +39,17 @@ class date extends Component {
         <ThemeProvider theme={theme}>
           <RangePicker
             handleChange={this.onChange}
-            numberOfSelectableDays={2}
+            // numberOfSelectableDays={2}
+            hoverable='true'
             responsive={handleResponsive}
+            disabledBeforeToday='true'
           />
         </ThemeProvider>
         <Link activeClass='active'
-        to='passengers'
-        spy={true}
-        smooth={true}
-        duration={1000}>
+          to='passengers'
+          spy={true}
+          smooth={true}
+          duration={1000}>
             <button type='button' id='date-button' className='button' >Next step</button>
         </Link>
       </>

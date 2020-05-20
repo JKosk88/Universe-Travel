@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+var description = false;
+
 export default class planet extends Component {
 
     render(){
@@ -21,6 +23,11 @@ export default class planet extends Component {
                     <div className='summary-content'>
                         <img src='assets/people.png' className='summary-img' alt='summary-passengers' />
                         <p id='summary-passengers'>Going alone? Take friends with you!</p>
+                    </div>
+                    <div className='summary-content'>
+                        <div id='summary-description-box'>
+                            <p id='summary-description'></p>
+                        </div>
                     </div>
                 </div>
             </div>
