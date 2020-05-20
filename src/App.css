@@ -337,7 +337,7 @@ div.tp-calendar > div:first-child {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60vw;
+  width: 50vw;
 }
 
 .summary-content{
@@ -354,5 +354,5 @@ div.tp-calendar > div:first-child {
 }
 
 #summary-description{
-  text-align: center;
+  text-align: justify;
 }
