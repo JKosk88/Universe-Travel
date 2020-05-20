@@ -20,11 +20,12 @@
     <img src='assets/astronautWhite.png' id='astronaut' />
     
     <script>
-        $(document).ready(function(){
+        $(document).ready(async function(){
           
-          function freshDot(){
+          function freshDot(id){
             this.obj = document.createElement("div");
             this.obj.classList.add("stars");
+            this.obj.id = ("star-" + id);
             this.obj.style.top = (window.innerHeight * Math.random()) + 'px';
             this.obj.style.left = (window.innerWidth * Math.random()) + 'px';
             this.size = Math.floor(5 * Math.random()) + 2;
@@ -34,9 +35,34 @@
             document.getElementById('stars').appendChild(this.obj);
           }
           var dot = [];
-          for(var i = 0 ; i < 100 ; i++ ){
-            dot.push(new freshDot());
+
+          function renderStars(){
+            for (let i = 0 ; i < 100 ; i++ ){
+              dot.push(new freshDot(i));
+            }
           }
+
+          await renderStars();
+
+          setInterval(() => {
+            let id = Math.floor( Math.random() * 100 );
+            
+            let star = document.getElementById( 'star-' + id );
+
+            let small = Math.floor(5 * Math.random()) + 2;
+            let big = Math.floor(10 * Math.random()) + 5;
+
+            star.style.width = big + 'px';
+            star.style.height = big + 'px';
+
+            star.style.backgroundColor = 'rgb(255, 255, 255)';
+
+            setTimeout(() => {
+              star.style.width = small + 'px';
+              star.style.height = small + 'px';
+              star.style.backgroundColor = 'rgb(182, 182, 182)';
+            }, 500)    
+          }, 100)
         });
 
         var astronaut = document.getElementById('astronaut');

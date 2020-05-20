@@ -28,6 +28,7 @@ class date extends Component {
       case 2:
         message = "Your jurney will start " + date[0] + ", and finish " + date[1];
         break;
+      default:
     }
     document.getElementById('summary-date').innerText = message;
   }

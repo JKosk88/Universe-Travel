@@ -28,6 +28,8 @@ export default class planet extends Component {
                 break;
             case 'Mars' :
                 description.innerText = "Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance.\nMars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.";
+                break;
+            default:
         }
     }
 

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-var description = false;
-
 export default class planet extends Component {
 
     render(){
