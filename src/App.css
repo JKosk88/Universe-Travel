@@ -273,11 +273,12 @@ div.tp-calendar > div:first-child {
 }
 
 #passenger-quantity {
+  text-align: end;
   align-self: center;
   font-size: 5rem;
   position: relative;
   right: 10px;
-  width: 150px;
+  width: 200px;
 }
 
 #passenger-button {
