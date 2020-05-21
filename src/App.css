@@ -19,7 +19,7 @@ body {
   transition: 1.3s ease-out;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  z-index: 1;
+  z-index: 100;
   filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
 }
 
@@ -137,6 +137,7 @@ body {
   background-color: rgb(53, 53, 53, 0.5);
   transition: 1s;
   animation: fadeIn 0.2s ease-in both;
+  z-index: 100;
 }
 
 @keyframes fadeIn {
@@ -158,6 +159,7 @@ body {
 }
 
 #info-hover {
+  z-index: 100;
   transition: 1s;
   margin: auto;
   width: 20px;
@@ -273,7 +275,7 @@ div.tp-calendar > div:first-child {
 
 #passenger-button {
   position: relative;
-  top: 20px;
+  margin-top: 20px;
 }
 
 /* passenger slider */
@@ -335,7 +337,7 @@ div.tp-calendar > div:first-child {
 .summary-img {
   height: 3rem;
   position: relative;
-  right: 20px;
+  margin-right: 20px;
 }
 
 #summary-bottom {
