@@ -47,7 +47,7 @@ class date extends Component {
           />
         </ThemeProvider>
         <Link activeClass='active'
-          to='passengers'
+          to='passnegers-div'
           spy={true}
           smooth={true}
           duration={1000}>

@@ -230,15 +230,25 @@ div.tp-calendar > div:first-child {
 
 /* passenger component */
 #passengers {
-  height: 100vh;
+  width: 70%;
   display: flex;
-  align-items: center; 
-  justify-content: center;
+  justify-items: center;
+  align-items: center;
   flex-direction: column;
   color: aliceblue;
   font-weight: 500;
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
+}
+
+#passnegers-div{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #passenger-icon{
@@ -259,11 +269,6 @@ div.tp-calendar > div:first-child {
   position: relative;
   right: 10px;
   width: 150px;
-}
-
-#passengers-div{
-  display: flex;
-  flex-direction: row;
 }
 
 #passenger-button {
@@ -318,6 +323,7 @@ div.tp-calendar > div:first-child {
 
 /* summary component */
 #summary {
+  width: 50vw;
   height: 100vh;
   color: aliceblue;
   display: flex;
@@ -337,7 +343,6 @@ div.tp-calendar > div:first-child {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50vw;
 }
 
 .summary-content{
@@ -355,4 +360,10 @@ div.tp-calendar > div:first-child {
 
 #summary-description{
   text-align: justify;
+}
+
+#summary-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

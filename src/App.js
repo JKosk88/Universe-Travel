@@ -27,10 +27,10 @@ function App()  {
           <Date />
         </div>
       </div>
-      <div data-aos='fade-left' id='passnegers-div'>
+      <div id='passnegers-div'>
         <Passengers />
       </div>
-      <div data-aos='fade-left' id='summary-container'>
+      <div id='summary-container'>
         <Summary />
       </div>
       <div id='stars'></div>

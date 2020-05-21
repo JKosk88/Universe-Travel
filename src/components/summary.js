@@ -4,7 +4,7 @@ export default class planet extends Component {
 
     render(){
         return (
-            <div id='summary'>
+            <div data-aos='fade-left' id='summary'>
                 <div id='summary-top'>
                     <h1>Congratulations!</h1>
                     <h3>You are going to fly to the universe.</h3>

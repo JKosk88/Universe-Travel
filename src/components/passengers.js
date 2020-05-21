@@ -15,7 +15,7 @@ export default class planet extends Component {
 
     render(){
         return (
-            <div id='passengers'>
+            <div data-aos='fade-left' id='passengers'>
                 <h1 id='passenger-header'>Select number of passengers</h1>
                 <div id='passenger-container'>
                     <div id='passenger-quantity'>2</div>
