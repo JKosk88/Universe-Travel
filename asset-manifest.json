@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Universe-Travel/static/css/main.9ec2bfac.chunk.css",
-    "main.js": "/Universe-Travel/static/js/main.265cebe7.chunk.js",
-    "main.js.map": "/Universe-Travel/static/js/main.265cebe7.chunk.js.map",
+    "main.css": "/Universe-Travel/static/css/main.0fbc3d5a.chunk.css",
+    "main.js": "/Universe-Travel/static/js/main.ebeeaf4e.chunk.js",
+    "main.js.map": "/Universe-Travel/static/js/main.ebeeaf4e.chunk.js.map",
     "runtime-main.js": "/Universe-Travel/static/js/runtime-main.0cb6be5a.js",
     "runtime-main.js.map": "/Universe-Travel/static/js/runtime-main.0cb6be5a.js.map",
     "static/css/2.e5c964ac.chunk.css": "/Universe-Travel/static/css/2.e5c964ac.chunk.css",
-    "static/js/2.32bc425d.chunk.js": "/Universe-Travel/static/js/2.32bc425d.chunk.js",
-    "static/js/2.32bc425d.chunk.js.map": "/Universe-Travel/static/js/2.32bc425d.chunk.js.map",
+    "static/js/2.8e7520ce.chunk.js": "/Universe-Travel/static/js/2.8e7520ce.chunk.js",
+    "static/js/2.8e7520ce.chunk.js.map": "/Universe-Travel/static/js/2.8e7520ce.chunk.js.map",
     "index.html": "/Universe-Travel/index.html",
-    "precache-manifest.7b1131d847dd0407968c529241048d97.js": "/Universe-Travel/precache-manifest.7b1131d847dd0407968c529241048d97.js",
+    "precache-manifest.9866bf135b95e41b255fa882280d3ae6.js": "/Universe-Travel/precache-manifest.9866bf135b95e41b255fa882280d3ae6.js",
     "service-worker.js": "/Universe-Travel/service-worker.js",
     "static/css/2.e5c964ac.chunk.css.map": "/Universe-Travel/static/css/2.e5c964ac.chunk.css.map",
-    "static/css/main.9ec2bfac.chunk.css.map": "/Universe-Travel/static/css/main.9ec2bfac.chunk.css.map",
-    "static/js/2.32bc425d.chunk.js.LICENSE.txt": "/Universe-Travel/static/js/2.32bc425d.chunk.js.LICENSE.txt"
+    "static/css/main.0fbc3d5a.chunk.css.map": "/Universe-Travel/static/css/main.0fbc3d5a.chunk.css.map",
+    "static/js/2.8e7520ce.chunk.js.LICENSE.txt": "/Universe-Travel/static/js/2.8e7520ce.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0cb6be5a.js",
     "static/css/2.e5c964ac.chunk.css",
-    "static/js/2.32bc425d.chunk.js",
-    "static/css/main.9ec2bfac.chunk.css",
-    "static/js/main.265cebe7.chunk.js"
+    "static/js/2.8e7520ce.chunk.js",
+    "static/css/main.0fbc3d5a.chunk.css",
+    "static/js/main.ebeeaf4e.chunk.js"
   ]
 }
