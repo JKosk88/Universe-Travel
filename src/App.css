@@ -136,6 +136,9 @@ body {
 
 .info {
   font-weight: 100;
+  margin-top: 100px;
+  pointer-events: none;
+  /* transform: translateY(200px); */
   font-size: 1rem;
   color: rgb(228, 228, 228);
   position: absolute;
@@ -189,6 +192,18 @@ body {
 #info-hover-2 {
   pointer-events: none;
 }
+
+ul{
+  list-style-type: disc;
+}
+
+#topList{
+  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+}
+
+
 
 /* date component */
 #date{
