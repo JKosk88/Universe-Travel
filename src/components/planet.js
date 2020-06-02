@@ -16,6 +16,27 @@ export default class planet extends Component {
         this.out = this.out.bind(this);
     }
 
+    componentDidMount(){
+        switch(this.props.name){
+            case 'Earth':
+                console.log('earth API download');
+                break;
+            case 'Moon':
+                console.log('moon API download');
+                break;
+            case 'Mars':
+                console.log('mars API download');
+                fetch("https://api.nasa.gov/insight_weather/?api_key=m0qReTofA1jgBbqMvFEoC4j6WdfjAn6hcnOjSYfK&feedtype=json&ver=1.0")
+                    .then(data => {
+                        console.log(data);
+                    })
+                break;
+            default:
+                console.log("error: missmatched planet name")
+                            
+        }
+    }
+
     selectPlanet() {
         document.getElementById('summary-destination').innerText = 'You are going to the ' + this.state.name + '.';
         let description = document.getElementById('summary-description');
@@ -67,7 +88,8 @@ export default class planet extends Component {
                     diameter: <b>{this.props.diameter} km</b><br/>
                     mass: <b>{this.props.mass} kg</b><br/>
                     distance: <b>{this.props.distance} million km</b><br/>
-                    orbital speed: <b>{this.props.speed} km/s</b>
+                    orbital speed: <b>{this.props.speed} km/s</b><br/>
+                    data: <b></b><br/>
                 </div>
             </div>
         );

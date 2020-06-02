@@ -14,6 +14,8 @@ function App()  {
     Aos.init({ duration: 1500, delay: 100 });
   })
 
+  
+
   return (
     <div className="App">
       <h1 id='planet-header' >Select destination</h1>
