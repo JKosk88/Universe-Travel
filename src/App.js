@@ -7,17 +7,17 @@ import 'aos/dist/aos.css';
 import Passengers from './components/passengers';
 import Summary from './components/summary';
 import Date from './components/date';
+import Stars from './components/stars';
 
 function App()  {
 
   useEffect(() => {
     Aos.init({ duration: 1500, delay: 100 });
   })
-
   
-
   return (
     <div className="App">
+      <Stars/>
       <h1 id='planet-header' >Select destination</h1>
       <div id='planets'>
           <Planet name='Earth' imgSrc='assets/Earth.png' mass='5.97237E24' diameter='12 742' distance='149.60' speed='29.78'/>

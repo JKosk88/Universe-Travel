@@ -20,6 +20,8 @@
     <img src='assets/astronautWhite.png' id='astronaut' />
     
     <script>
+        window.x;
+
         $(document).ready(async function(){
           
           function freshDot(id){
@@ -44,25 +46,6 @@
 
           await renderStars();
 
-          setInterval(() => {
-            let id = Math.floor( Math.random() * 100 );
-            
-            let star = document.getElementById( 'star-' + id );
-
-            let small = Math.floor(5 * Math.random()) + 2;
-            let big = Math.floor(10 * Math.random()) + 5;
-
-            star.style.width = big + 'px';
-            star.style.height = big + 'px';
-
-            star.style.backgroundColor = 'rgb(255, 255, 255)';
-
-            setTimeout(() => {
-              star.style.width = small + 'px';
-              star.style.height = small + 'px';
-              star.style.backgroundColor = 'rgb(182, 182, 182)';
-            }, 500)    
-          }, 100)
         });
 
         var astronaut = document.getElementById('astronaut');

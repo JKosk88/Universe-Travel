@@ -56,7 +56,7 @@ export default class planet extends Component {
                         for (let i = 0; i < 3; i++){
                             const date = new Date(data.daily.data[i].time * 1000);
 
-                            days.push(daysLabels[date.getDay() + 1]);
+                            days.push(daysLabels[date.getDay()]);
 
                             earthTemps.push((data.daily.data[i].temperatureHigh).toString());
                             earthWindSpeed.push(data.daily.data[i].windSpeed);
@@ -107,8 +107,7 @@ export default class planet extends Component {
 
                 break;
             default:
-                console.log("error: missmatched planet name")
-                            
+                console.error('missmatched planet name');
         }
     }
 
