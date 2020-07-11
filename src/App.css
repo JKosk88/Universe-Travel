@@ -55,6 +55,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   color: white;
+  z-index: 101;
 }
 
 #checbox-body > span{
